@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\OutsideJob\\StockManagement\\ReactApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Migrations\\20240907172556_Tettteee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReactApp1.Server\\Migrations\\20240907172556_Tettteee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\migrations\\20240907172556_tettteee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\migrations\\20240907172556_tettteee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Migrations\\20240907172507_Tettteee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -150,8 +150,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Migrations\\20240907172507_Tettteee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T17:25:07.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T17:25:07.458Z"
             },
             {
               "$type": "Document",
@@ -163,8 +162,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Migrations\\20240907172110_testt.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T17:21:10.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T17:21:10.377Z"
             },
             {
               "$type": "Document",
@@ -176,8 +174,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Migrations\\20240907171639_Test.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T17:16:39.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T17:16:39.975Z"
             },
             {
               "$type": "Document",
@@ -189,8 +186,7 @@
               "RelativeToolTip": "ReactApp1.Server\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAACNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-07T11:56:32.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T11:56:32.962Z"
             },
             {
               "$type": "Document",
@@ -200,8 +196,7 @@
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TSServer\\lib.dom.d.ts",
               "ViewState": "AQIAADRdAAAAAAAAAAAtwEBdAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-09-07T12:09:36.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T12:09:36.334Z"
             },
             {
               "$type": "Document",
@@ -237,8 +232,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-07T16:59:32.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T16:59:32.874Z"
             },
             {
               "$type": "Document",
@@ -250,8 +244,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Classes\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T14:31:17.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T14:31:17.003Z"
             },
             {
               "$type": "Document",
@@ -263,8 +256,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T11:56:13.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T11:56:13.411Z"
             },
             {
               "$type": "Document",
@@ -276,8 +268,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Classes\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T14:30:15.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T14:30:15.077Z"
             },
             {
               "$type": "Document",
@@ -289,8 +280,7 @@
               "RelativeToolTip": "ReactApp1.Server\\ReactApp1.Server.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-07T12:15:50.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T12:15:50.879Z"
             },
             {
               "$type": "Document",
@@ -314,8 +304,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T12:15:42.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T12:15:42.72Z"
             },
             {
               "$type": "Document",
@@ -339,8 +328,7 @@
               "RelativeToolTip": "reactapp1.client\\src\\App.tsx",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-09-07T11:53:42.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T11:53:42.835Z"
             },
             {
               "$type": "Document",
