@@ -7,7 +7,8 @@ using ReactApp1.Server.Repositories;
 namespace ReactApp1.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+        [Route("api/[controller]")]
+
     public class ProductController : ControllerBase
     {
         private readonly IProductRepository _productRepository;
@@ -18,11 +19,22 @@ namespace ReactApp1.Server.Controllers
             _logger = logger;
         }
 
-        [HttpPost(Name = "GetWeatherForecast")]
+        [HttpPost(Name = "Add")]
+
         public async Task<string> Add(Product product)
         {
              await _productRepository.Add(product);
             return ("Hama katin");
         }
+
+
+        [HttpGet]
+        [Route("GetAll", Name = "GetAll")]
+        public async Task<IEnumerable<Product>> GetAll()
+        {
+            var result =await _productRepository.GetAll();
+            return (result);
+        }
+
     }
 }

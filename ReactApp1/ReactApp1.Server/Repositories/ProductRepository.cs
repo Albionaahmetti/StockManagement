@@ -1,5 +1,7 @@
-﻿using ReactApp1.Server.Classes;
+﻿using Microsoft.EntityFrameworkCore;
+using ReactApp1.Server.Classes;
 using ReactApp1.Server.Interfaces;
+using System.Linq;
 
 namespace ReactApp1.Server.Repositories
 {
@@ -14,6 +16,11 @@ namespace ReactApp1.Server.Repositories
         {
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
+        }
+        public async Task<IEnumerable<Product>> GetAll()
+        {
+            var result =await _context.Products.ToListAsync();
+            return result;
         }
     }
 }

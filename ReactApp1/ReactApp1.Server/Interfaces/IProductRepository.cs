@@ -5,5 +5,6 @@ namespace ReactApp1.Server.Interfaces
     public interface IProductRepository
     {
          Task Add(Product product);
+         Task<IEnumerable<Product>> GetAll();
     }
 }
