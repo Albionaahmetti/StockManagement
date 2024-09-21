@@ -5,17 +5,20 @@ import { Button, TextField, Dialog, DialogActions, DialogContent, DialogTitle } 
 interface AddProductDialogProps {
     open: boolean;
     onClose: () => void;
-    onAdd: (product: { id: number; name: string; filePath?: string; insertionDate: string }) => void;
+    onAdd: (name: string, file: File | null) => void;
 }
 
 const AddProductDialog: React.FC<AddProductDialogProps> = ({ open, onClose, onAdd }) => {
-    const [newProduct, setNewProduct] = React.useState({ id: 0, name: '', filePath: '', insertionDate: '' });
+    const [name, setName] = React.useState('');
+    const [file, setFile] = React.useState<File | null>(null); // State for the uploaded file
 
     const handleAddProduct = () => {
-        const formattedProduct = { ...newProduct, insertionDate: new Date().toLocaleDateString('en-GB') };
-        onAdd(formattedProduct);
-        setNewProduct({ id: 0, name: '', filePath: '', insertionDate: '' });
-        onClose();
+        if (name && file) {
+            onAdd(name, file);
+            setName(''); // Reset the name input
+            setFile(null); // Reset the file input
+            onClose();
+        }
     };
 
     return (
@@ -27,15 +30,17 @@ const AddProductDialog: React.FC<AddProductDialogProps> = ({ open, onClose, onAd
                     margin="dense"
                     label="Product Name"
                     fullWidth
-                    value={newProduct.name}
-                    onChange={(e) => setNewProduct({ ...newProduct, name: e.target.value })}
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                 />
-                <TextField
-                    margin="dense"
-                    label="File Path"
-                    fullWidth
-                    value={newProduct.filePath}
-                    onChange={(e) => setNewProduct({ ...newProduct, filePath: e.target.value })}
+                <input
+                    type="file"
+                    onChange={(e) => {
+                        if (e.target.files) {
+                            setFile(e.target.files[0]); // Set the selected file
+                        }
+                    }}
+                    style={{ marginTop: 16 }} // Add some space
                 />
             </DialogContent>
             <DialogActions>
