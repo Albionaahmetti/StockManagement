@@ -1,14 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ReactApp1.Server.Classes
 {
-    public class Product
+    public class Product : BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
+        public Product() => StockEntries = new HashSet<StockEntry>();
         public string? Name { get; set; }
         public string? FilePath { get; set; }
-        public DateTime InsertionDate { get; set; }
+        public virtual ICollection<StockEntry> StockEntries { get; set; } 
     }
 }

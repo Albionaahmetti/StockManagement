@@ -1,2 +1,3 @@
 C:\Users\albaa\source\repos\ReactApp1\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
 D:\OutsideJob\StockManagement\ReactApp1\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
+C:\Users\kledi\OneDrive\Desktop\stock\StockManagement\ReactApp1\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache

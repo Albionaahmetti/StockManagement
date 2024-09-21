@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "zfHA2paIgzZWeAa9IKIGKyjbDBuoE0lX1K81oY1wDRI=",
+  "Hash": "73IjIa0OMiR7hEjR4j4RhJ0hqbhigqTfDZs3wcy6kIU=",
   "Source": "ReactApp1.Server",
   "BasePath": "_content/ReactApp1.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\reactapp1.client.esproj",
+      "Identity": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\reactapp1.client.esproj",
       "Version": 2,
       "Source": "reactapp1.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
