@@ -4303,19 +4303,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kledi\\.nuget\\packages\\": {}
+    "C:\\Users\\albaa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
+      "projectUniqueName": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
       "projectName": "ReactApp1.Server",
-      "projectPath": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
-      "packagesPath": "C:\\Users\\kledi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\obj\\",
+      "projectPath": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
+      "packagesPath": "C:\\Users\\albaa\\.nuget\\packages\\",
+      "outputPath": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kledi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\albaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4406,7 +4406,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
