@@ -14,7 +14,7 @@ const AddProductDialog: React.FC<AddProductDialogProps> = ({ open, onClose, onAd
     const handleAddProduct = () => {
         const formattedProduct = { ...newProduct, insertionDate: new Date().toLocaleDateString('en-GB') };
         onAdd(formattedProduct);
-        setNewProduct({ id: 0, name: '', filePath: '', insertionDate: '' }); // Reset the form
+        setNewProduct({ id: 0, name: '', filePath: '', insertionDate: '' });
         onClose();
     };
 
