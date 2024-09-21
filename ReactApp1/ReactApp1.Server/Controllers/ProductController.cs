@@ -6,7 +6,7 @@ using ReactApp1.Server.Interfaces;
 
 namespace ReactApp1.Server.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {

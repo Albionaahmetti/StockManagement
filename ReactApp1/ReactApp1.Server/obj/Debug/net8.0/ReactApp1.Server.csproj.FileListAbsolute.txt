@@ -281,3 +281,4 @@ D:\OutsideJob\StockManagement\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ReactA
 D:\OutsideJob\StockManagement\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ReactApp1.Server.genruntimeconfig.cache
 D:\OutsideJob\StockManagement\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ref\ReactApp1.Server.dll
 D:\OutsideJob\StockManagement\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ReactApp1.Server.sourcelink.json
+D:\OutsideJob\StockManagement\ReactApp1\ReactApp1.Server\bin\Debug\net8.0\AutoMapper.dll

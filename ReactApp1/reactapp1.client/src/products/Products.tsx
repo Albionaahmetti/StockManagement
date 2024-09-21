@@ -10,6 +10,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import { columns } from './productColumns';
+import { ApiResponse } from '../types/ApiResponse';
 
 interface Product {
     id: number;
@@ -31,9 +32,10 @@ function Products() {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const res = await axios.get<Product[]>('/api/product/GetAll');
+                const res = await axios.get<ApiResponse<Product>>('/api/product/listAllProducts');
+                
                 const immutableList = List(
-                    res.data.map((item) => ({
+                    res.data.result.map((item) => ({
                         ...item,
                         insertionDate: formatDate(item.insertionDate),
                     }))
@@ -56,7 +58,7 @@ function Products() {
     };
 
     const handleAddProduct = () => {
-        const formattedProduct = { ...newProduct, id, insertionDate: formatDate(new Date()) };
+        const formattedProduct = { ...newProduct, insertionDate: formatDate(new Date()) };
         const updatedProducts = List(products).push(formattedProduct);
         setProducts(updatedProducts.toJS());
         setNewProduct({ id: 0, name: '', filePath: '', insertionDate: '' }); // Reset the form
