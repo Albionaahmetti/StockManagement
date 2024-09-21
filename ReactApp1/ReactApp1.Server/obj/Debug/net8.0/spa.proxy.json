@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\..\\reactapp1.client",
+"WorkingDirectory": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\..\\reactapp1.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
