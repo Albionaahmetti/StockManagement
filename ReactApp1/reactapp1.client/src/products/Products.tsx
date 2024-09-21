@@ -19,7 +19,9 @@ interface Product {
 function Products() {
     const [products, setProducts] = useState<Product[]>([]);
     const [open, setOpen] = useState(false); // Dialog state
-
+    const formatDate = (date :Date| string ) => {
+        return new Date(date).toLocaleDateString('en-GB');
+    };
 
     useEffect(() => {
         const fetchProducts = async () => {
@@ -29,7 +31,7 @@ function Products() {
                 const immutableList = List(
                     res.data.result.map((item) => ({
                         ...item,
-                        
+                        insertionDate :formatDate(item.insertionDate)
                     }))
                 );
                 setProducts(immutableList.toJS());
