@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\stockentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\stockentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\stockentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\stockentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\services\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\interfaces\\istockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Migrations\\20240921124033_updateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReactApp1.Server\\Migrations\\20240921124033_updateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\reactapp1.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\reactapp1.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -55,12 +59,8 @@
       "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\classes\\stockentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\migrations\\20240921124033_updatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\migrations\\20240921124033_updatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,63 +70,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\GenericRepository.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Services\\GenericRepository.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAowEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T13:05:38.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "StockEntriesController.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockEntriesController.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\StockEntriesController.cs",
               "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockEntriesController.cs",
               "RelativeToolTip": "ReactApp1.Server\\Controllers\\StockEntriesController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBYAAAB2AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T12:24:04.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StockOutController.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockOutController.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\StockOutController.cs",
               "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockOutController.cs",
               "RelativeToolTip": "ReactApp1.Server\\Controllers\\StockOutController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBkAAABJAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwAkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:52:26.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T16:52:26.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wA4AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:50:04.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IStockOutService.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Interfaces\\IStockOutService.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Interfaces\\IStockOutService.cs",
@@ -134,12 +107,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Interfaces\\IStockOutService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:20:07.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:20:07.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\ProfileMappers\\MappingProfile.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\ProfileMappers\\MappingProfile.cs",
@@ -147,12 +119,59 @@
               "RelativeToolTip": "ReactApp1.Server\\ProfileMappers\\MappingProfile.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T13:03:03.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T13:03:03.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:53:21.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitController.cs",
+              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\UnitController.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\UnitController.cs",
+              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\UnitController.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Controllers\\UnitController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:53:24.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:50:04.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\GenericRepository.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Services\\GenericRepository.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAowEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:05:38.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "StockOutService.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockOutService.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\StockOutService.cs",
@@ -160,12 +179,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Services\\StockOutService.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAswCQAAADkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:22:57.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:22:57.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "StockEntryService.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockEntryService.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\StockEntryService.cs",
@@ -173,12 +191,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Services\\StockEntryService.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAD4vyUAAAClAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T16:11:09.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T16:11:09.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Program.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Program.cs",
@@ -186,12 +203,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Program.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T13:00:26.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T13:00:26.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "StockEntryDTO.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\DTO\\Stock\\StockEntryDTO.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\DTO\\Stock\\StockEntryDTO.cs",
@@ -199,12 +215,11 @@
               "RelativeToolTip": "ReactApp1.Server\\DTO\\Stock\\StockEntryDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:42:10.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:42:10.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "20240921124033_updateDB.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Migrations\\20240921124033_updateDB.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Migrations\\20240921124033_updateDB.cs",
@@ -212,12 +227,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Migrations\\20240921124033_updateDB.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:40:33.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:40:33.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "StockEntry.cs",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Classes\\StockEntry.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Classes\\StockEntry.cs",
@@ -225,12 +239,11 @@
               "RelativeToolTip": "ReactApp1.Server\\Classes\\StockEntry.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:30:01.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:30:01.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ReactApp1.Server.http",
               "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.http",
               "RelativeDocumentMoniker": "ReactApp1.Server\\ReactApp1.Server.http",
@@ -238,32 +251,11 @@
               "RelativeToolTip": "ReactApp1.Server\\ReactApp1.Server.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-21T12:36:57.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T12:36:57.96Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:53:21.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UnitController.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\UnitController.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\UnitController.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\UnitController.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Controllers\\UnitController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:53:24.257Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
