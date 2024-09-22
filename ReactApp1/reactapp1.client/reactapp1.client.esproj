@@ -12,6 +12,7 @@
     <Folder Include="components\" />
     <Folder Include="layouts\" />
     <Folder Include="pages\" />
+    <Folder Include="src\notification\" />
     <Folder Include="src\types\" />
   </ItemGroup>
 </Project>
