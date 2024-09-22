@@ -113,8 +113,8 @@ namespace ReactApp1.Server.Services
                     productDTO.FilePath = path;
                 }
 
-                var product = _mapper.Map(productDTO, new Product() { InsertionDate = DateTime.Now });
-
+                var product = _mapper.Map(productDTO, new Product() {});
+                product.InsertionDate = DateTime.Now;
                 _productRepository.Add(product);
 
                 return new ApiResponse<ProductDTO>((int)PublicStatusCode.Done, _mapper.Map<ProductDTO>(product));

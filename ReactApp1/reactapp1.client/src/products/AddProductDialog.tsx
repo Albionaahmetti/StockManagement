@@ -5,7 +5,7 @@ import { Button, TextField, Dialog, DialogActions, DialogContent, DialogTitle } 
 interface AddProductDialogProps {
     open: boolean;
     onClose: () => void;
-    onAdd: (name: string, file: File | null) => void;
+    onAdd: (name :string, file: string) => void;
 }
 
 const AddProductDialog: React.FC<AddProductDialogProps> = ({ open, onClose, onAdd }) => {

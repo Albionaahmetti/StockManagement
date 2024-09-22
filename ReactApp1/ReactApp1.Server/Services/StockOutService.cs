@@ -12,6 +12,7 @@ namespace ReactApp1.Server.Services
     {
         private readonly IMapper _mapper;
         private readonly IGenericRepository<StockOut> _stockOutRepository;
+        private readonly ISQLRepository _sQLRepository;
         private readonly IWebHostEnvironment _environment;
         private readonly FileService _fileService;
 
@@ -19,6 +20,7 @@ namespace ReactApp1.Server.Services
         (
             IMapper mapper,
             IGenericRepository<StockOut> stockOutRepository,
+            ISQLRepository sQLRepository,
             IWebHostEnvironment environment,
             FileService fileService
         )
@@ -26,6 +28,7 @@ namespace ReactApp1.Server.Services
             _mapper = mapper;
             _stockOutRepository = stockOutRepository;
             _environment = environment;
+            _sQLRepository = sQLRepository;
             _fileService = fileService;
         }
 
@@ -88,7 +91,11 @@ namespace ReactApp1.Server.Services
             try
             {
                 var stockOut = _mapper.Map(StockOutDTO, new StockOut() { InsertionDate = DateTime.Now });
-                var inserted =  _stockOutRepository.AddAndGetEntity(stockOut);
+                var stock = _sQLRepository.GetStockWithIdStockEntry(stockOut.IDStockEntry);
+                if (stock.Result != null ? stock.Result.RemainingStock < stockOut.Quantity : true)
+                    return new ApiResponse<StockOutDTO>((int)PublicStatusCode.NotEnoughQuantity);
+
+                var inserted = _stockOutRepository.AddAndGetEntity(stockOut);
                 return new ApiResponse<StockOutDTO>((int)PublicStatusCode.Done, _mapper.Map<StockOutDTO>(_stockOutRepository.GetByIdWithNavigations(inserted.Id, _ => _.IdStockEntryNavigation.IdProductNavigation)));
             }
             catch (Exception)

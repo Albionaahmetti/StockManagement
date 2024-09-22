@@ -1,4 +1,6 @@
-﻿using ReactApp1.Server.Classes;
+﻿using Microsoft.Data.SqlClient;
+using ReactApp1.Server.Classes;
+using System.Data;
 using System.Linq.Expressions;
 
 namespace ReactApp1.Server.Interfaces
@@ -14,5 +16,6 @@ namespace ReactApp1.Server.Interfaces
         void Delete(T entity);
         void Save();
         IEnumerable<T> FindByCriteria(Func<T, bool> predicate,params Expression<Func<T, object>>[]? includeProperties );
+        DataTable ExecuteStoredProcedure(string storedProcedureName, params SqlParameter[] parameters);
     }
 }

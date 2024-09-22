@@ -1,6 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using ReactApp1.Server.Classes;
 using ReactApp1.Server.Interfaces;
+using System.Data;
 using System.Linq.Expressions;
 
 namespace ReactApp1.Server.Services
@@ -80,6 +82,27 @@ namespace ReactApp1.Server.Services
             }
 
             return query.FirstOrDefault(e => EF.Property<int>(e, "Id") == id);
+        }
+        public DataTable ExecuteStoredProcedure(string storedProcedureName, params SqlParameter[] parameters)
+        {
+            DataTable resultTable = new DataTable();
+
+            using (var command = _context.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = storedProcedureName;
+                command.CommandType = CommandType.StoredProcedure;
+
+                if (parameters != null)
+                    command.Parameters.AddRange(parameters);
+
+                _context.Database.OpenConnection();
+                using (var result = command.ExecuteReader())
+                    resultTable.Load(result);
+
+                _context.Database.CloseConnection();
+            }
+
+            return resultTable;
         }
     }
 }

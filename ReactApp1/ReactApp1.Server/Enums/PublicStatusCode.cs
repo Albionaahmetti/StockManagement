@@ -4,6 +4,7 @@
     {
         Done = 0,
         InternalServerError = 1,
-        EntityNotFound = 2
+        EntityNotFound = 2,
+        NotEnoughQuantity = 4
     }
 }
