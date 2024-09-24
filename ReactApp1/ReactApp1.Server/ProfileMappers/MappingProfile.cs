@@ -3,7 +3,6 @@ using ReactApp1.Server.Classes;
 using ReactApp1.Server.DTO.ProductsDTO;
 using ReactApp1.Server.DTO.Stock;
 using ReactApp1.Server.DTO.UnitsDTO;
-using static ReactApp1.Server.NewFolder.PathResolver;
 
 namespace ReactApp1.Server.ProfileMappers
 {
@@ -11,17 +10,16 @@ namespace ReactApp1.Server.ProfileMappers
     {
         public MappingProfile()
         {
-            CreateMap<ProductDTO, Product>().ReverseMap()
-                .ForMember(x => x.FilePath, opt => opt.MapFrom<ProductFilePathResolver>());
+            CreateMap<ProductDTO, Product>().ReverseMap();
 
             CreateMap<UnitDTO, Unit>().ReverseMap();
             CreateMap<StockEntryDTO, StockEntry>().ReverseMap()
-                .ForMember(x => x.ProductName, opt => opt.MapFrom(src => src.IdProductNavigation.Name))
-                .ForMember(x => x.ProductImagePath, opt => opt.MapFrom<StockEntryFilePathResolver>());
+                .ForMember(x => x.ProductName, opt => opt.MapFrom(src => src.IdProductNavigation.Name));
+            
 
 
-            CreateMap<StockOutDTO, StockOut>().ReverseMap()
-                .ForMember(x => x.ProductImageFromStockEntry, opt => opt.MapFrom<StockOutFilePathResolver>());
+            //CreateMap<StockOutDTO, StockOut>().ReverseMap()
+            //    .ForMember(x => x.ProductImageFromStockEntry, opt => opt.MapFrom<StockOutFilePathResolver>());
         }
     }
 }

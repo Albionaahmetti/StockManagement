@@ -6,7 +6,6 @@ namespace ReactApp1.Server.Classes
     {
         public Product() => StockEntries = new HashSet<StockEntry>();
         public string? Name { get; set; }
-        public string? FilePath { get; set; }
         public virtual ICollection<StockEntry> StockEntries { get; set; } 
     }
 }

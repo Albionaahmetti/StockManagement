@@ -10,7 +10,6 @@ namespace ReactApp1.Server.Classes
         }
 
         public DbSet<Product> Products { get; set; }
-        public DbSet<Unit> Units { get; set; }
         public DbSet<StockEntry> StockEntries { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

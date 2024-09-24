@@ -34,7 +34,7 @@ namespace ReactApp1.Server.Services
         {
             try
             {
-                var data = _stockEntryRepository.FindByCriteria(_ => !_.IsDeleted);
+                IEnumerable<StockEntry>? data = _stockEntryRepository.GetAllWithNavigations(_ => _.IdProductNavigation);
                 return new ApiResponse<IEnumerable<StockEntryDTO>>((int)PublicStatusCode.Done, _mapper.Map<IList<StockEntryDTO>>(_stockEntryRepository.FindByCriteria(_ => !_.IsDeleted)));
             }
             catch (Exception)
@@ -47,7 +47,7 @@ namespace ReactApp1.Server.Services
         {
             try
             {
-                var stockEntry = _stockEntryRepository.GetByIdWithNavigations(id, _ => _.IdProductNavigation, _ => _.IdUnitNavigation);
+                var stockEntry = _stockEntryRepository.GetByIdWithNavigations(id, _ => _.IdProductNavigation);
                 return new ApiResponse<StockEntryDTO>((int)PublicStatusCode.Done, _mapper.Map<StockEntryDTO>(stockEntry));
             }
             catch (Exception)
@@ -88,7 +88,8 @@ namespace ReactApp1.Server.Services
         {
             try
             {
-                var stockEntry = _mapper.Map(StockEntryDTO, new StockEntry() { InsertionDate = DateTime.Now });
+                var stockEntry = _mapper.Map(StockEntryDTO, new StockEntry());
+                    stockEntry.InsertionDate = DateTime.Now;
                 _stockEntryRepository.Add(stockEntry);
                 return new ApiResponse<StockEntryDTO>((int)PublicStatusCode.Done, _mapper.Map<StockEntryDTO>(stockEntry));
             }

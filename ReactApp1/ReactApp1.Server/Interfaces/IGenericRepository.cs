@@ -15,6 +15,7 @@ namespace ReactApp1.Server.Interfaces
         void Update(T entity);
         void Delete(T entity);
         void Save();
+        IEnumerable<T> GetAllWithNavigations(params Expression<Func<T, object>>[] includeProperties);
         IEnumerable<T> FindByCriteria(Func<T, bool> predicate,params Expression<Func<T, object>>[]? includeProperties );
         DataTable ExecuteStoredProcedure(string storedProcedureName, params SqlParameter[] parameters);
     }

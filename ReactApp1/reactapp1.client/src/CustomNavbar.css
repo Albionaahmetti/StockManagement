@@ -1,0 +1,5 @@
+﻿/* CustomNavbar.css */
+.active-nav-link {
+    color: black !important; /* Darker color for active link */
+    font-weight: bold !important;
+}

@@ -61,17 +61,8 @@ namespace ReactApp1.Server.Services
             {
                 var product = _productRepository.GetById(productDTO.Id.Value);
                 product.Name = productDTO.Name;
-                if (productDTO.Document != null)
-                {
-                    if (!string.IsNullOrEmpty(product.FilePath))
-                    {
-                        var fullPath = Path.Combine(_environment.ContentRootPath, product.FilePath);
-                        if (File.Exists(fullPath))
-                            File.Delete(fullPath);
-                    }
-                    var path = await _fileService.SaveFileAsync(productDTO.Document);
-                    product.FilePath = path;
-                }
+            
+                  
                 _productRepository.Update(product);
 
                 return new ApiResponse<ProductDTO>((int)PublicStatusCode.Done, _mapper.Map<ProductDTO>(product));
@@ -88,13 +79,7 @@ namespace ReactApp1.Server.Services
             {
                 var product = _productRepository.GetById(id);
                 product.IsDeleted = true;
-                if(!string.IsNullOrEmpty(product.FilePath))
-                {
-                    var fullPath = Path.Combine(_environment.ContentRootPath, product.FilePath);
-                    if (File.Exists(fullPath))
-                        File.Delete(fullPath);
-                    product.FilePath = null;
-                }   
+              
                 _productRepository.Update(product);
                 return new ApiResponse<ProductDTO>((int)PublicStatusCode.Done, _mapper.Map<ProductDTO>(product));
             }
@@ -107,11 +92,8 @@ namespace ReactApp1.Server.Services
         {
             try
             {
-                if (productDTO.Document != null)
-                {
-                    var path = await _fileService.SaveFileAsync(productDTO.Document);
-                    productDTO.FilePath = path;
-                }
+               
+                 
 
                 var product = _mapper.Map(productDTO, new Product() {});
                 product.InsertionDate = DateTime.Now;

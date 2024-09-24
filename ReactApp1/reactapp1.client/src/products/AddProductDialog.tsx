@@ -5,12 +5,11 @@ import { Button, TextField, Dialog, DialogActions, DialogContent, DialogTitle, F
 interface AddProductDialogProps {
     open: boolean;
     onClose: () => void;
-    onAdd: (name: string, file: File) => void;
+    onAdd: (name: string) => void;
 }
 
 const AddProductDialog: React.FC<AddProductDialogProps> = ({ open, onClose, onAdd }) => {
     const [name, setName] = React.useState('');
-    const [file, setFile] = React.useState<File | null>(null); 
     const handleAddProduct = () => {
    
         if (!name) {
@@ -19,10 +18,9 @@ const AddProductDialog: React.FC<AddProductDialogProps> = ({ open, onClose, onAd
             </div>
         return;
     }
-    if (name && file) {
-        onAdd(name, file); 
-        setName(''); 
-        setFile(null); 
+    if (name) {
+        onAdd(name); 
+        setName('');  
         onClose();
     }
 };
@@ -45,15 +43,7 @@ const AddProductDialog: React.FC<AddProductDialogProps> = ({ open, onClose, onAd
                        Ju lutem shenoni emrin e produktit!
                     </FormHelperText>
                 )}
-                <input
-                    type="file"
-                    onChange={(e) => {
-                        if (e.target.files) {
-                            setFile(e.target.files[0]); 
-                        }
-                    }}
-                    style={{ marginTop: 16 }}
-                />
+               
             </DialogContent>
             <DialogActions>
                 <Button onClick={handleAddProduct} variant="contained" color="primary">Add</Button>

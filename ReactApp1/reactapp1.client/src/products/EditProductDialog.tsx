@@ -28,20 +28,20 @@ const EditProductDialog: React.FC<EditProductDialogProps> = ({ open, onClose, pr
 
     return (
         <Dialog open={open} onClose={onClose}>
-            <DialogTitle>Edit Product</DialogTitle>
+            <DialogTitle>Perditeso produktin</DialogTitle>
             <DialogContent>
                 <TextField
                     autoFocus
                     margin="dense"
-                    label="Product Name"
+                    label="Produkti"
                     fullWidth
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                 />
             </DialogContent>
             <DialogActions>
-                <Button onClick={handleEditProduct} variant="contained" color="primary">Edit</Button>
-                <Button onClick={onClose} variant="outlined" color="secondary">Cancel</Button>
+                <Button onClick={handleEditProduct} variant="contained" color="primary">Perditeso</Button>
+                <Button onClick={onClose} variant="outlined" color="secondary">Anulo</Button>
             </DialogActions>
         </Dialog>
     );

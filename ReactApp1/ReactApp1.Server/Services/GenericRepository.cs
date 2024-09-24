@@ -83,6 +83,17 @@ namespace ReactApp1.Server.Services
 
             return query.FirstOrDefault(e => EF.Property<int>(e, "Id") == id);
         }
+        public IEnumerable<T> GetAllWithNavigations(params Expression<Func<T, object>>[] includeProperties)
+        {
+            IQueryable<T> query = _dbSet;
+
+            foreach (var includeProperty in includeProperties)
+            {
+                query = query.Include(includeProperty);
+            }
+
+            return query.ToList(); 
+        }
         public DataTable ExecuteStoredProcedure(string storedProcedureName, params SqlParameter[] parameters)
         {
             DataTable resultTable = new DataTable();
