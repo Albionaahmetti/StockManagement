@@ -1,5 +1,5 @@
 import { DataGrid } from '@mui/x-data-grid';
-import { columns } from './gridItem'; // Adjust the path accordingly
+import { columns } from './gridItem'; 
 import axios from 'axios';
 import { ApiResponse } from '../types/ApiResponse';
 import { StockEntry } from '../types/Entry';
@@ -7,7 +7,7 @@ import { List } from 'immutable';
 import { formatDate } from '../helpers/dataformat';
 import { useEffect, useState } from 'react';
 import { CircularProgress, Button } from '@mui/material';
-import AddStockEntryDialog from './AddStockEntryDialog'; // Import the dialog
+import AddStockEntryDialog from './AddStockEntryDialog'; 
 
 import Notification from '../notification/Notification';
 function YourGridComponent() {
@@ -19,20 +19,20 @@ function YourGridComponent() {
     const [alertSeverity, setAlertSeverity] = useState<'success' | 'error'>('success');
 
     const fetchProducts = async () => {
-        setLoading(true); // Start loading
+        setLoading(true); 
         try {
             const res = await axios.get<ApiResponse<StockEntry>>('/api/stockentries/listAllStockEntries');
             const immutableList = List(
                 res.data.result.map((item) => ({
                     ...item,
-                    insertionDate: formatDate(item.insertionDate), // Ensure this formats correctly
+                    insertionDate: formatDate(item.insertionDate),
                 }))
             );
             setEntry(immutableList.toJS());
         } catch (error) {
             console.error('Error fetching products:', error);
         } finally {
-            setLoading(false); // Stop loading
+            setLoading(false);
         }
     };
     const handleAlertClose = () => {
@@ -44,7 +44,7 @@ function YourGridComponent() {
 
     const handleAddEntry= async (newEntry: StockEntry) => {
 
-        setLoading(true); // Start loading
+        setLoading(true); 
         try {
             const formData = new FormData();
             formData.append('Description', newEntry.description);
