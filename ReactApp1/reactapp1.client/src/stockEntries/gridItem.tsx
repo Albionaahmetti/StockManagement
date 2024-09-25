@@ -1,5 +1,6 @@
+import { Button } from '@mui/material';
 import { GridColDef } from '@mui/x-data-grid';
-export const columns: GridColDef[] = [
+export const columns = (handleDeleteEntry: (id: number) => void): GridColDef[] => [
     { field: 'id', headerName: 'ID', width: 70},
     { field: 'idProduct', headerName: 'Product ID', width: 150 },
     { field: 'productName', headerName: 'Produkti', width: 150 },
@@ -32,5 +33,19 @@ export const columns: GridColDef[] = [
         headerName: 'Shtuar me date:',
         width: 150
     },
+    {
+        field: 'actions',
+        headerName: '',
+        width: 150,
+        renderCell: (params) => (
+            <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => handleDeleteEntry(params.row.id)}
+            >
+                Fshij
+            </Button>
+        ),
+    },
    
-];
+]

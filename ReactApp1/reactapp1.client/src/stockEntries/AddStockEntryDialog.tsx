@@ -115,7 +115,7 @@ const AddStockEntryDialog: React.FC<AddStockEntryDialogProps> = ({ open, onClose
                     Anulo
                 </Button>
                 <Button onClick={handleSubmit} color="primary">
-                    Add
+                    Shto
                 </Button>
             </DialogActions>
         </Dialog>

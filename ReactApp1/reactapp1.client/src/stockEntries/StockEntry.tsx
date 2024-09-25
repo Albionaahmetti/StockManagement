@@ -1,5 +1,5 @@
-import { DataGrid } from '@mui/x-data-grid';
-import { columns } from './gridItem'; 
+import { DataGrid, GridRowParams } from '@mui/x-data-grid'; 
+import { columns } from './gridItem';
 import axios from 'axios';
 import { ApiResponse } from '../types/ApiResponse';
 import { StockEntry } from '../types/Entry';
@@ -8,6 +8,7 @@ import { formatDate } from '../helpers/dataformat';
 import { useEffect, useState } from 'react';
 import { CircularProgress, Button } from '@mui/material';
 import AddStockEntryDialog from './AddStockEntryDialog'; 
+import EditStockEntryDialog from './Edit'; 
 
 import Notification from '../notification/Notification';
 function YourGridComponent() {
@@ -17,7 +18,8 @@ function YourGridComponent() {
     const [alertOpen, setAlertOpen] = useState(false);
     const [alertMessage, setAlertMessage] = useState('');
     const [alertSeverity, setAlertSeverity] = useState<'success' | 'error'>('success');
-
+    const [editDialogOpen, setEditDialogOpen] = useState(false);
+    const [selectedEntry, setSelectedEntry] = useState<StockEntry | null>(null);
     const fetchProducts = async () => {
         setLoading(true); 
         try {
@@ -41,6 +43,77 @@ function YourGridComponent() {
     useEffect(() => {
         fetchProducts();
     }, []);
+
+    const openEditDialog = (entry: StockEntry) => {
+        setSelectedEntry(entry);
+        setEditDialogOpen(true);
+    };
+    const handleRowDoubleClick = (params: GridRowParams) => {
+        openEditDialog(params.row);
+    };
+
+    const handleSaveEntry = async (newEntry: StockEntry) => {
+
+        setLoading(true);
+        try {
+            const formData = new FormData();
+            formData.append('Id', newEntry.id.toString());
+            formData.append('Description', newEntry.description);
+            formData.append('IDProduct', newEntry.idProduct.toString());
+            formData.append('Price', newEntry.price.toString());
+            formData.append('Quantity', newEntry.quantity.toString());
+
+            const res = await axios.put<ApiResponse<StockEntry>>('/api/stockentries/editStockEntry', formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data',
+                },
+            });
+
+            if (res.data.statusCode === 0) {
+                setAlertMessage('Hyrja u shtua me sukses!');
+                setAlertSeverity('success');
+                setAlertOpen(true);
+                fetchProducts();
+                setEditDialogOpen(false);
+            } else {
+                setAlertMessage(`Error: Diqka shkoi keq. Ju lutem lajmeroni personin kontaktues.`);
+                console.error('Error adding product:', res.data.result);
+                setAlertSeverity('error');
+
+            }
+            setAlertOpen(true);
+        } catch (error) {
+            setAlertMessage('An unexpected error occurred.');
+            setAlertSeverity('error');
+            setAlertOpen(true);
+            console.error('Error adding product:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+    const handleDeleteEntry = async (productId: number) => {
+        setLoading(true);
+        try {
+            const res = await axios.put<ApiResponse<StockEntry>>(`/api/stockentries/deleteStockEntry/${productId}`);
+            if (res.data.statusCode === 0) {
+                setAlertMessage('Produkti u fshi me sukses!');
+                setAlertSeverity('success');
+                fetchProducts();
+            } else {
+                setAlertMessage('Dicka shkoi keq. Ju lutem provoni perseri.');
+                setAlertSeverity('error');
+            }
+            setAlertOpen(true);
+        } catch (error) {
+            setAlertMessage('Nje gabim ndodhi gjate fshirjes.');
+            setAlertSeverity('error');
+            setAlertOpen(true);
+            console.error('Error deleting product:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
 
     const handleAddEntry= async (newEntry: StockEntry) => {
 
@@ -92,12 +165,19 @@ function YourGridComponent() {
                 onClick={() => setDialogOpen(true)}
                 sx={{ marginBottom: 2 }}
             >
-                Add Stock Entry
+                Shto Hyrje
             </Button>
+            <EditStockEntryDialog
+                open={editDialogOpen}
+                entry={selectedEntry}
+                onClose={() => setEditDialogOpen(false)}
+                onSave={handleSaveEntry} 
+            />
             <DataGrid
 
                 rows={stockEntry}
-                columns={columns}
+                columns={columns(handleDeleteEntry)}
+                 onRowDoubleClick={handleRowDoubleClick} 
                 pageSize={5}
                 columnVisibilityModel={{ id: false, idProduct: false }}
                 rowsPerPageOptions={[5, 10]}

@@ -61,8 +61,9 @@ namespace ReactApp1.Server.Services
             try
             {
                 var stockEntry = _stockEntryRepository.GetById(StockEntryDTO.Id.Value);
-                _mapper.Map(stockEntry, stockEntry);
-                _stockEntryRepository.Update(stockEntry);
+                var mapper =_mapper.Map(StockEntryDTO, stockEntry);
+                mapper.InsertionDate = DateTime.Now;
+                 _stockEntryRepository.Update(mapper);
                 return new ApiResponse<StockEntryDTO>((int)PublicStatusCode.Done, _mapper.Map<StockEntryDTO>(stockEntry));
             }
             catch (Exception)

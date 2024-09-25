@@ -7,7 +7,7 @@ export const getColumns = (handleDeleteProduct: (id: number) => void): GridColDe
     { field: 'insertionDate', headerName: 'Shtuar më:', width: 150 },
     {
         field: 'actions',
-        headerName: 'Actions',
+        headerName: '',
         width: 150,
         renderCell: (params) => (
             <Button

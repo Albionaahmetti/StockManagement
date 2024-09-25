@@ -10,3 +10,7 @@
 *.v2
 *.v2
 /ReactApp1/.vs
+/ReactApp1/node_modules/@mui
+/ReactApp1/.vs
+/ReactApp1/.vs/ReactApp1
+ReactApp1/node_modules/@mui/material/Select/package.json
