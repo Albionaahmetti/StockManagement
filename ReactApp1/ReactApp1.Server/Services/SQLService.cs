@@ -25,7 +25,7 @@ namespace ReactApp1.Server.Services
         {
             try
             {
-                var data = _stockReportRepository.ExecuteStoredProcedure("GetStock");
+                var data = _stockReportRepository.ExecuteStoredProcedure<StockReport>("GetStock");
                 return new ApiResponse<IEnumerable<StockReport>>((int)PublicStatusCode.Done, _mapper.Map<IEnumerable<StockReport>>(data));
             }
             catch (Exception)
@@ -43,7 +43,7 @@ namespace ReactApp1.Server.Services
                     new SqlParameter("@IdStockEntry", SqlDbType.Int) { Value = IdStockEntry },
                 };
 
-                var data = _stockReportRepository.ExecuteStoredProcedure("GetStockWithIdStockEntry", parameters);
+                var data = _stockReportRepository.ExecuteStoredProcedure<StockReport>("GetStockWithIdStockEntry", parameters).FirstOrDefault();
                 return new ApiResponse<StockReport>((int)PublicStatusCode.Done, _mapper.Map<StockReport>(data));
             }
             catch (Exception)

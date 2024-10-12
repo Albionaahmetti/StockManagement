@@ -12,7 +12,6 @@
     <Folder Include="components\" />
     <Folder Include="layouts\" />
     <Folder Include="pages\" />
-    <Folder Include="src\helpers\" />
     <Folder Include="src\notification\" />
   </ItemGroup>
 </Project>

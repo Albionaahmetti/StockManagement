@@ -17,6 +17,6 @@ namespace ReactApp1.Server.Interfaces
         void Save();
         IEnumerable<T> GetAllWithNavigations(params Expression<Func<T, object>>[] includeProperties);
         IEnumerable<T> FindByCriteria(Func<T, bool> predicate,params Expression<Func<T, object>>[]? includeProperties );
-        DataTable ExecuteStoredProcedure(string storedProcedureName, params SqlParameter[] parameters);
+        IEnumerable<T> ExecuteStoredProcedure<T>(string storedProcedureName, params SqlParameter[] parameters);
     }
 }

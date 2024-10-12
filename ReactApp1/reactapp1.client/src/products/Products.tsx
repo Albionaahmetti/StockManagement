@@ -12,6 +12,7 @@ import { ApiResponse } from '../types/ApiResponse';
 import Notification from '../notification/Notification';
 import './Products.css';
 import { Product } from '../types/Types';
+import { localeText } from '../helpers/filterGridAlbania';
 
 function Products() {
     const [products, setProducts] = useState<Product[]>([]);
@@ -172,6 +173,7 @@ function Products() {
                     rowsPerPageOptions={[5, 10]}
                     columnVisibilityModel={{ id: false }}
                     sx={{ border: 0 }}
+                    localeText={localeText}
                     onRowDoubleClick={handleDoubleClick}
                 />
             </Paper>

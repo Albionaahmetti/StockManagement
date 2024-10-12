@@ -3,7 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using ReactApp1.Server.Classes;
 using ReactApp1.Server.Interfaces;
 using System.Data;
+using Dapper;
 using System.Linq.Expressions;
+using ReactApp1.Server.DTO.Stock;
 
 namespace ReactApp1.Server.Services
 {
@@ -92,28 +94,40 @@ namespace ReactApp1.Server.Services
                 query = query.Include(includeProperty);
             }
 
-            return query.ToList(); 
+            return query.ToList();
         }
-        public DataTable ExecuteStoredProcedure(string storedProcedureName, params SqlParameter[] parameters)
+
+        public IEnumerable<T> ExecuteStoredProcedure<T>(string storedProcedureName, params SqlParameter[] parameters)
         {
-            DataTable resultTable = new DataTable();
-
-            using (var command = _context.Database.GetDbConnection().CreateCommand())
+            try
             {
-                command.CommandText = storedProcedureName;
-                command.CommandType = CommandType.StoredProcedure;
+                using (var connection = _context.Database.GetDbConnection())
+                {
+                    // Ensure the connection is open
+                    if (connection.State != ConnectionState.Open)
+                    {
+                        connection.Open();
+                    }
 
-                if (parameters != null)
-                    command.Parameters.AddRange(parameters);
+                    // Use Dapper to execute the stored procedure
+                    var result = connection.Query<T>(
+                        storedProcedureName,
+                        parameters.ToDictionary(p => p.ParameterName, p => p.Value), // Convert SqlParameter[] to a dictionary
+                        commandType: CommandType.StoredProcedure
+                    ).ToList();
 
-                _context.Database.OpenConnection();
-                using (var result = command.ExecuteReader())
-                    resultTable.Load(result);
-
-                _context.Database.CloseConnection();
+                    return result;
+                }
             }
-
-            return resultTable;
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error executing stored procedure: {ex.Message}");
+                throw; // Rethrow the exception
+            }
         }
+
+
+
     }
 }

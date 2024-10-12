@@ -33,6 +33,7 @@ namespace ReactApp1.Server.Controllers
 
         [HttpPut("deleteStockOut/{id}")]
         public IActionResult DeleteStockOut(int id) => Ok( _stockOutService.DeleteStockOut(id));
-
+        [HttpGet("getStockInfo")]
+        public IActionResult GetStockInfo() => Ok(_stockOutService.GetStock());
     }
 }

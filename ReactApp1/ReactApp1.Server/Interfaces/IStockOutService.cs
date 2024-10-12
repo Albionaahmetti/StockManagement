@@ -7,6 +7,7 @@ namespace ReactApp1.Server.Interfaces
     {
         ApiResponse<IEnumerable<StockOutDTO>> ListAllStockOut();
         ApiResponse<StockOutDTO> GetStockOutById(int id);
+        ApiResponse<IEnumerable<StockReport>> GetStock();
         ApiResponse<StockOutDTO> EditStockOut(StockOutDTO productDTO);
         ApiResponse<StockOutDTO> CreateStockOut(StockOutDTO productDTO);
         ApiResponse<StockOutDTO> DeleteStockOut(int id);

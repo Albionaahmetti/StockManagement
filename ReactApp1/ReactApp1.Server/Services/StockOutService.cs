@@ -103,5 +103,18 @@ namespace ReactApp1.Server.Services
                 return new ApiResponse<StockOutDTO>((int)PublicStatusCode.InternalServerError);
             }
         }
+        public ApiResponse<IEnumerable<StockReport>> GetStock()
+        {
+            try
+            {
+                var stockOut = _sQLRepository.GetStock();
+                return stockOut;
+            }
+            catch (Exception)
+            {
+                return new ApiResponse<IEnumerable<StockReport>>((int)PublicStatusCode.InternalServerError);
+            }
+        }
+
     }
 }

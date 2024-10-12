@@ -425,3 +425,4 @@ C:\Users\kledi\OneDrive\Desktop\stock\StockManagement\ReactApp1\ReactApp1.Server
 C:\Users\kledi\OneDrive\Desktop\stock\StockManagement\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ReactApp.139653F6.Up2Date
 C:\Users\kledi\OneDrive\Desktop\stock\StockManagement\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ReactApp1.Server.genruntimeconfig.cache
 C:\Users\kledi\OneDrive\Desktop\stock\StockManagement\ReactApp1\ReactApp1.Server\obj\Debug\net8.0\ref\ReactApp1.Server.dll
+D:\OutsideJob\StockManagement\ReactApp1\ReactApp1.Server\bin\Debug\net8.0\Dapper.dll

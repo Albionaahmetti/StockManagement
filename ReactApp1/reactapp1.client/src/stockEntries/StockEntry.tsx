@@ -11,6 +11,7 @@ import AddStockEntryDialog from './AddStockEntryDialog';
 import EditStockEntryDialog from './Edit';
 
 import Notification from '../notification/Notification';
+import { localeText } from '../helpers/filterGridAlbania';
 function YourGridComponent() {
     const [stockEntry, setEntry] = useState<StockEntry[]>([]);
     const [loading, setLoading] = useState(false);
@@ -180,6 +181,7 @@ function YourGridComponent() {
                 onRowDoubleClick={handleRowDoubleClick}
                 pageSize={5}
                 columnVisibilityModel={{ id: false, idProduct: false }}
+                localeText={localeText}
                 rowsPerPageOptions={[5, 10]}
                 sx={{ border: 0 }}
             />

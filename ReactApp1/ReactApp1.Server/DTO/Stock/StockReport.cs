@@ -3,7 +3,7 @@
 
     public class StockReport
     {
-        public string? ProductName { get; set; }
+        public string? Name { get; set; }
         public decimal TotalStock { get; set; }
         public decimal TotalOut { get; set; }
         public decimal RemainingStock { get; set; }
