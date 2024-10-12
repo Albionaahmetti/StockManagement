@@ -1,77 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\",
+  "WorkspaceRootPath": "D:\\OutsideJob\\StockManagement\\ReactApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\stockentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\stockentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\services\\stockentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\services\\stockentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\stockentries\\stockentry.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\stockentries\\stockentry.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\stockout\\addstockoutdialog.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\stockout\\addstockoutdialog.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\stockout\\edit.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\stockout\\edit.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\stockout\\stockout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\stockout\\stockout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\profilemappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\profilemappers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\stockout\\griditem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\stockout\\griditem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.server\\dto\\stock\\stockentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\dto\\stock\\stockentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\customnavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\customnavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\customnavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\customnavbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\customnavbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\columns.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\columns.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\types\\types.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\types\\types.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|c:\\users\\kledi\\onedrive\\desktop\\stock\\stockmanagement\\reactapp1\\reactapp1.client\\src\\products\\products.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\layouts\\mainlayout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\layouts\\mainlayout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\vite-env.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\vite-env.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\products\\productcolumns.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\products\\productcolumns.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\stockentries\\addstockentrydialog.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\stockentries\\addstockentrydialog.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\stockentries\\stockentry.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\stockentries\\stockentry.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\stockentries\\griditem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\stockentries\\griditem.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\stockentries\\edit.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\stockentries\\edit.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\services\\stockentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\services\\stockentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\products\\products.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\products\\products.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
@@ -82,243 +70,203 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StockOut.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockOut\\StockOut.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\stockOut\\StockOut.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockOut\\StockOut.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\stockOut\\StockOut.tsx",
-              "ViewState": "AQIAAKEAAAAAAAAAAAAMwKoAAAAaAAAA",
+              "DocumentIndex": 8,
+              "Title": "productColumns.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\products\\productColumns.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\products\\productColumns.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\products\\productColumns.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\products\\productColumns.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T13:00:23.202Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T13:11:27.275Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StockOutController.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockOutController.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\StockOutController.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockOutController.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Controllers\\StockOutController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T12:52:56.576Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "DocumentIndex": 11,
+              "Title": "gridItem.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\gridItem.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\stockEntries\\gridItem.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\gridItem.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\stockEntries\\gridItem.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-24T10:32:18.497Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockOut\\Edit.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\stockOut\\Edit.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockOut\\Edit.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\stockOut\\Edit.tsx",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAMwDkAAAAbAAAA",
+              "DocumentIndex": 10,
+              "Title": "StockEntry.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAK0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T13:39:46.652Z",
+              "WhenOpened": "2024-09-24T10:02:55.642Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Products.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\products\\Products.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\products\\Products.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\products\\Products.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\products\\Products.tsx",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAjwK4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-08T14:08:17.029Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\Home.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\Home.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\Home.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\Home.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-12T13:14:20.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AddStockOutDialog.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockOut\\AddStockOutDialog.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\stockOut\\AddStockOutDialog.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockOut\\AddStockOutDialog.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\stockOut\\AddStockOutDialog.tsx",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAMwEkAAABHAAAA",
+              "Title": "MainLayout.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\layouts\\MainLayout.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\layouts\\MainLayout.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\layouts\\MainLayout.tsx",
+              "RelativeToolTip": "reactapp1.client\\layouts\\MainLayout.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T13:16:00.308Z",
+              "WhenOpened": "2024-10-12T13:12:35.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StockEntriesController.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockEntriesController.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\StockEntriesController.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockEntriesController.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Controllers\\StockEntriesController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBgAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:32:55.493Z",
+              "Title": "App.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\App.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\App.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\App.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\App.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-12T13:11:07.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StockEntryService.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockEntryService.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\StockEntryService.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockEntryService.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Services\\StockEntryService.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAD4v2AAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:00:07.892Z",
+              "DocumentIndex": 1,
+              "Title": "columns.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\columns.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\columns.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\columns.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\columns.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-12T13:08:03.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StockOutService.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockOutService.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\StockOutService.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockOutService.cs*",
-              "RelativeToolTip": "ReactApp1.Server\\Services\\StockOutService.cs*",
-              "ViewState": "AQIAADYAAAAAAAAAAAAtwEEAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T13:12:55.584Z",
+              "DocumentIndex": 6,
+              "Title": "vite-env.d.ts",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\vite-env.d.ts",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\vite-env.d.ts",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\vite-env.d.ts",
+              "RelativeToolTip": "reactapp1.client\\src\\vite-env.d.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-12T13:08:01.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StockEntry.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAcwMoAAAAAAAAA",
+              "Title": "main.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\main.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\main.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\main.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\main.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T15:23:18.823Z",
+              "WhenOpened": "2024-10-12T13:07:57.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomNavbar.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\CustomNavbar.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\CustomNavbar.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-12T13:06:28.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\ProfileMappers\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\ProfileMappers\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\ProfileMappers\\MappingProfile.cs",
-              "RelativeToolTip": "ReactApp1.Server\\ProfileMappers\\MappingProfile.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBEAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:08:20.648Z",
+              "DocumentIndex": 7,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\.gitignore",
+              "RelativeDocumentMoniker": "reactapp1.client\\.gitignore",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\.gitignore",
+              "RelativeToolTip": "reactapp1.client\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-25T13:21:41.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "gridItem.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockOut\\gridItem.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\stockOut\\gridItem.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockOut\\gridItem.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\stockOut\\gridItem.tsx",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Title": "AddStockEntryDialog.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\AddStockEntryDialog.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\stockEntries\\AddStockEntryDialog.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\AddStockEntryDialog.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\stockEntries\\AddStockEntryDialog.tsx",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwHUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T13:00:22.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CustomNavbar.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\CustomNavbar.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\CustomNavbar.tsx",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB8AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T13:47:34.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "main.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\main.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\main.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\main.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\main.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T13:50:56.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T13:16:28.465Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Home.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\Home.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\Home.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\Home.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\Home.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T13:51:02.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StockEntryDTO.cs",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\DTO\\Stock\\StockEntryDTO.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\DTO\\Stock\\StockEntryDTO.cs",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\DTO\\Stock\\StockEntryDTO.cs",
-              "RelativeToolTip": "ReactApp1.Server\\DTO\\Stock\\StockEntryDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Title": "StockEntryService.cs",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockEntryService.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\StockEntryService.cs",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockEntryService.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Services\\StockEntryService.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAewE0AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:07:17.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T13:12:00.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CustomNavbar.css",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.css",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\CustomNavbar.css",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.css",
-              "RelativeToolTip": "reactapp1.client\\src\\CustomNavbar.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-12T13:47:32.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Types.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\types\\Types.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\types\\Types.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\types\\Types.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\types\\Types.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAABAAAA",
+              "DocumentIndex": 12,
+              "Title": "Edit.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\Edit.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\stockEntries\\Edit.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\Edit.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\stockEntries\\Edit.tsx",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwEAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T13:18:38.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\App.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\App.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\App.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\App.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T13:51:55.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Products.tsx",
-              "DocumentMoniker": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\products\\Products.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\products\\Products.tsx",
-              "ToolTip": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\reactapp1.client\\src\\products\\Products.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\products\\Products.tsx",
-              "ViewState": "AQIAAJ8AAAAAAAAAAAASwKoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T12:54:01.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T13:08:52.872Z"
             }
           ]
         }
