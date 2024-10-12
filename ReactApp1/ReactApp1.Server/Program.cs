@@ -21,10 +21,6 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUnitService, UnitService>();
 builder.Services.AddScoped<IStockEntryService, StockEntryService>();
 builder.Services.AddScoped<IStockOutService, StockOutService>();
-<<<<<<< Updated upstream
-builder.Services.AddScoped<ISQLRepository, SQLService>();
-=======
->>>>>>> Stashed changes
 
 
 builder.Services.AddScoped<ISQLRepository,SQLService>();
