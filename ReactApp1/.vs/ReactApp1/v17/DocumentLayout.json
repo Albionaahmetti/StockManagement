@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -55,8 +55,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-09-21T13:11:27.275Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -69,8 +68,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-09-24T10:32:18.497Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -83,8 +81,7 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAK0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-09-24T10:02:55.642Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -97,8 +94,11 @@
               "ViewState": "AQIAAJ4AAAAAAAAAAAAjwK4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-09-08T14:08:17.029Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -108,18 +108,10 @@
               "RelativeDocumentMoniker": "reactapp1.client\\.gitignore",
               "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\.gitignore",
               "RelativeToolTip": "reactapp1.client\\.gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-09-25T13:21:41.15Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
@@ -131,8 +123,7 @@
               "RelativeToolTip": "reactapp1.client\\src\\stockEntries\\AddStockEntryDialog.tsx",
               "ViewState": "AQIAAEQAAAAAAAAAAAAAwHUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-09-25T13:16:28.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T13:16:28.465Z"
             },
             {
               "$type": "Document",
@@ -144,8 +135,7 @@
               "RelativeToolTip": "ReactApp1.Server\\Services\\StockEntryService.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAAAewE0AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T13:12:00.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T13:12:00.736Z"
             },
             {
               "$type": "Document",
@@ -157,8 +147,7 @@
               "RelativeToolTip": "reactapp1.client\\src\\stockEntries\\Edit.tsx",
               "ViewState": "AQIAABEAAAAAAAAAAAAxwEAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-09-25T13:08:52.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T13:08:52.872Z"
             }
           ]
         }
