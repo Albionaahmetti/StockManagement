@@ -20,7 +20,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUnitService, UnitService>();
 builder.Services.AddScoped<IStockEntryService, StockEntryService>();
-//builder.Services.AddScoped<IStockOutService, StockOutService>();
+builder.Services.AddScoped<IStockOutService, StockOutService>();
+builder.Services.AddScoped<ISQLRepository, SQLService>();
 
 
 

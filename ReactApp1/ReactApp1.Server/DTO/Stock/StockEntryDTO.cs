@@ -8,6 +8,7 @@
         public decimal Quantity { get; set; }
         public decimal Price { get; set; }
         public string? ProductName { get; set; }
+        public string? DescriptionForStockOut { get; set; }
         public DateTime? InsertionDate { get; set; }
 
     }

@@ -35,7 +35,7 @@ namespace ReactApp1.Server.Services
             try
             {
                 IEnumerable<StockEntry>? data = _stockEntryRepository.GetAllWithNavigations(_ => _.IdProductNavigation);
-                return new ApiResponse<IEnumerable<StockEntryDTO>>((int)PublicStatusCode.Done, _mapper.Map<IList<StockEntryDTO>>(_stockEntryRepository.FindByCriteria(_ => !_.IsDeleted)));
+                return new ApiResponse<IEnumerable<StockEntryDTO>>((int)PublicStatusCode.Done, _mapper.Map<IList<StockEntryDTO>>(data));
             }
             catch (Exception)
             {

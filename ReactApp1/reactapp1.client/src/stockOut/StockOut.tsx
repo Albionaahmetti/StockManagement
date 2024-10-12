@@ -1,36 +1,36 @@
-import { DataGrid, GridRowParams } from '@mui/x-data-grid';
+import { DataGrid, GridRowParams } from '@mui/x-data-grid'; 
 import { columns } from './gridItem';
 import axios from 'axios';
 import { ApiResponse } from '../types/ApiResponse';
-import { StockEntry } from '../types/Entry';
+import { IStockOut } from '../types/IStockOut';
 import { List } from 'immutable';
 import { formatDate } from '../helpers/dataformat';
 import { useEffect, useState } from 'react';
 import { CircularProgress, Button } from '@mui/material';
-import AddStockEntryDialog from './AddStockEntryDialog';
-import EditStockEntryDialog from './Edit';
+import AddStokOutDialog from './AddStockOutDialog'; 
+import EditStockOutDialog from './Edit'; 
 
 import Notification from '../notification/Notification';
 function YourGridComponent() {
-    const [stockEntry, setEntry] = useState<StockEntry[]>([]);
+    const [IStockOut, setOut] = useState<IStockOut[]>([]);
     const [loading, setLoading] = useState(false);
     const [dialogOpen, setDialogOpen] = useState(false);
     const [alertOpen, setAlertOpen] = useState(false);
     const [alertMessage, setAlertMessage] = useState('');
     const [alertSeverity, setAlertSeverity] = useState<'success' | 'error'>('success');
     const [editDialogOpen, setEditDialogOpen] = useState(false);
-    const [selectedEntry, setSelectedEntry] = useState<StockEntry | null>(null);
+    const [selectedEntry, setSelectedEntry] = useState<IStockOut | null>(null);
     const fetchProducts = async () => {
-        setLoading(true);
+        setLoading(true); 
         try {
-            const res = await axios.get<ApiResponse<StockEntry>>('/api/stockentries/listAllStockEntries');
+            const res = await axios.get<ApiResponse<IStockOut>>('/api/stockout/listAllstockout');
             const immutableList = List(
                 res.data.result.map((item) => ({
                     ...item,
                     insertionDate: formatDate(item.insertionDate),
                 }))
             );
-            setEntry(immutableList.toJS());
+            setOut(immutableList.toJS());
         } catch (error) {
             console.error('Error fetching products:', error);
         } finally {
@@ -44,7 +44,7 @@ function YourGridComponent() {
         fetchProducts();
     }, []);
 
-    const openEditDialog = (entry: StockEntry) => {
+    const openEditDialog = (entry: IStockOut) => {
         setSelectedEntry(entry);
         setEditDialogOpen(true);
     };
@@ -52,25 +52,26 @@ function YourGridComponent() {
         openEditDialog(params.row);
     };
 
-    const handleSaveEntry = async (newEntry: StockEntry) => {
+    const handleSaveEntry = async (newEntry: IStockOut) => {
 
         setLoading(true);
         try {
             const formData = new FormData();
             formData.append('Id', newEntry.id.toString());
-            formData.append('Description', newEntry.description);
-            formData.append('IDProduct', newEntry.idProduct.toString());
-            formData.append('Price', newEntry.price.toString());
+            formData.append('IDStockEntry', newEntry.idStockEntry.toString());
             formData.append('Quantity', newEntry.quantity.toString());
+            formData.append('Price', newEntry.price.toString());
+            formData.append('InsertionDate', newEntry.insertionDate.toString());
+            formData.append('Description', newEntry.description.toString());
 
-            const res = await axios.put<ApiResponse<StockEntry>>('/api/stockentries/editStockEntry', formData, {
+            const res = await axios.put<ApiResponse<IStockOut>>('/api/stockout/editStockOut', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
             });
 
             if (res.data.statusCode === 0) {
-                setAlertMessage('Hyrja u perditesua me sukses!');
+                setAlertMessage('Dalja u perditesua me sukses!');
                 setAlertSeverity('success');
                 setAlertOpen(true);
                 fetchProducts();
@@ -94,9 +95,9 @@ function YourGridComponent() {
     const handleDeleteEntry = async (productId: number) => {
         setLoading(true);
         try {
-            const res = await axios.put<ApiResponse<StockEntry>>(`/api/stockentries/deleteStockEntry/${productId}`);
+            const res = await axios.put<ApiResponse<IStockOut>>(`/api/stockout/deleteStockOut/${productId}`);
             if (res.data.statusCode === 0) {
-                setAlertMessage('Hryja u fshi me sukses!');
+                setAlertMessage('Dalja u fshi me sukses!');
                 setAlertSeverity('success');
                 fetchProducts();
             } else {
@@ -115,24 +116,26 @@ function YourGridComponent() {
     };
 
 
-    const handleAddEntry = async (newEntry: StockEntry) => {
+    const handleAddEntry = async (newEntry: IStockOut) => {
 
-        setLoading(true);
+        setLoading(true); 
         try {
             const formData = new FormData();
-            formData.append('Description', newEntry.description);
-            formData.append('IDProduct', newEntry.idProduct.toString());
-            formData.append('Price', newEntry.price.toString());
+            formData.append('Id', newEntry.id.toString());
+            formData.append('IDStockEntry', newEntry.idStockEntry.toString());
             formData.append('Quantity', newEntry.quantity.toString());
+            formData.append('Price', newEntry.price.toString());
+            formData.append('InsertionDate', newEntry.insertionDate.toString());
+            formData.append('Description', newEntry.description.toString());
 
-            const res = await axios.post<ApiResponse<StockEntry>>('/api/stockentries/createStockEntry', formData, {
+            const res = await axios.post<ApiResponse<IStockOut>>('/api/stockout/createStockOut', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
             });
 
             if (res.data.statusCode === 0) {
-                setAlertMessage('Hyrja u shtua me sukses!');
+                setAlertMessage('Dalja u shtua me sukses!');
                 setAlertSeverity('success');
                 setAlertOpen(true);
                 fetchProducts();
@@ -140,7 +143,7 @@ function YourGridComponent() {
                 setAlertMessage(`Error: Diqka shkoi keq. Ju lutem lajmeroni personin kontaktues.`);
                 console.error('Error adding product:', res.data.result);
                 setAlertSeverity('error');
-
+               
             }
             setAlertOpen(true);
         } catch (error) {
@@ -149,7 +152,7 @@ function YourGridComponent() {
             setAlertOpen(true);
             console.error('Error adding product:', error);
         } finally {
-            setLoading(false);
+            setLoading(false); 
         }
     };
     return (
@@ -165,25 +168,25 @@ function YourGridComponent() {
                 onClick={() => setDialogOpen(true)}
                 sx={{ marginBottom: 2 }}
             >
-                Shto Hyrje
+                Shto Dalje
             </Button>
-            <EditStockEntryDialog
+            <EditStockOutDialog
                 open={editDialogOpen}
                 entry={selectedEntry}
                 onClose={() => setEditDialogOpen(false)}
-                onSave={handleSaveEntry}
+                onSave={handleSaveEntry} 
             />
             <DataGrid
 
-                rows={stockEntry}
+                rows={IStockOut}
                 columns={columns(handleDeleteEntry)}
-                onRowDoubleClick={handleRowDoubleClick}
+                onRowDoubleClick={handleRowDoubleClick} 
                 pageSize={5}
                 columnVisibilityModel={{ id: false, idProduct: false }}
                 rowsPerPageOptions={[5, 10]}
                 sx={{ border: 0 }}
             />
-            <AddStockEntryDialog
+            <AddStokOutDialog
                 open={dialogOpen}
                 onClose={() => setDialogOpen(false)}
                 onAdd={handleAddEntry}

@@ -36,8 +36,8 @@ function CustomNavbar() {
                                 Hyrje
                             </NavDropdown.Item>
                             <NavDropdown.Item
-                                href="/stockexits"
-                                className={location.pathname === '/stockexits' ? 'active-nav-link' : ''}
+                                href="/stockout"
+                                className={location.pathname === '/stockout' ? 'active-nav-link' : ''}
                             >
                                 Dalje
                             </NavDropdown.Item>

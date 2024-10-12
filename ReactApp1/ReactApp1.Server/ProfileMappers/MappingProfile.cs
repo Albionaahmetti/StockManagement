@@ -14,12 +14,11 @@ namespace ReactApp1.Server.ProfileMappers
 
             CreateMap<UnitDTO, Unit>().ReverseMap();
             CreateMap<StockEntryDTO, StockEntry>().ReverseMap()
-                .ForMember(x => x.ProductName, opt => opt.MapFrom(src => src.IdProductNavigation.Name));
-            
+                .ForMember(x => x.ProductName, opt => opt.MapFrom(src => src.IdProductNavigation.Name))
+                .ForMember(x => x.DescriptionForStockOut, opt => opt.MapFrom(src => string.Concat(src.Description, " - ", src.IdProductNavigation.Name, " - ", src.Quantity)));
 
-
-            //CreateMap<StockOutDTO, StockOut>().ReverseMap()
-            //    .ForMember(x => x.ProductImageFromStockEntry, opt => opt.MapFrom<StockOutFilePathResolver>());
+            CreateMap<StockOutDTO, StockOut>().ReverseMap()
+                .ForMember(x => x.StockEntry, opt => opt.MapFrom(x => string.Concat(x.IdStockEntryNavigation.Description, " - " , x.IdStockEntryNavigation.IdProductNavigation.Name, " - ", x.IdStockEntryNavigation.Quantity)));
         }
     }
 }

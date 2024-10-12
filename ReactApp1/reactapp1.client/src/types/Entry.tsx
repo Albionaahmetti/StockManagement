@@ -6,4 +6,6 @@ export interface StockEntry {
     price: number;
     productName: string;
     insertionDate: string;
+    descriptionForStockOut: string
 }
+

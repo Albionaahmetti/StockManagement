@@ -94,7 +94,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.SpaProxy/8.0.8": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.10": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -1676,10 +1676,10 @@
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.SpaProxy/8.0.8": {
-      "sha512": "T9Zhb64OmOr2nU0iND7br44EfJrQYHpopxvq33l33uZM2Uu/V2GTHKg5OmGMO3XJuUX59fhqvMyXOcFFj6k1pA==",
+    "Microsoft.AspNetCore.SpaProxy/8.0.10": {
+      "sha512": "8oqu48JT85gDrgkS8nbrIBYY4R+u3twEnycD8zSJJUVfw+Y14BmkymSGtH413ev3hc4hq4le9fD0P5468NlNbg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.8",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1687,7 +1687,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.8.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.8.0.10.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -4303,19 +4303,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\albaa\\.nuget\\packages\\": {}
+    "C:\\Users\\kledi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
+      "projectUniqueName": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
       "projectName": "ReactApp1.Server",
-      "projectPath": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
-      "packagesPath": "C:\\Users\\albaa\\.nuget\\packages\\",
-      "outputPath": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\obj\\",
+      "projectPath": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\ReactApp1.Server.csproj",
+      "packagesPath": "C:\\Users\\kledi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kledi\\OneDrive\\Desktop\\stock\\StockManagement\\ReactApp1\\ReactApp1.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\albaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kledi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4406,7 +4406,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

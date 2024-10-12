@@ -36,8 +36,8 @@ namespace ReactApp1.Server.Services
         {
             try
             {
-                var data = _stockOutRepository.FindByCriteria(_ => !_.IsDeleted);
-                return new ApiResponse<IEnumerable<StockOutDTO>>((int)PublicStatusCode.Done, _mapper.Map<IList<StockOutDTO>>(_stockOutRepository.FindByCriteria(_ => !_.IsDeleted, _ => _.IdStockEntryNavigation.IdProductNavigation)));
+                var data = _stockOutRepository.FindByCriteria(_ => !_.IsDeleted, _ => _.IdStockEntryNavigation, _ => _.IdStockEntryNavigation.IdProductNavigation);
+                return new ApiResponse<IEnumerable<StockOutDTO>>((int)PublicStatusCode.Done, _mapper.Map<IList<StockOutDTO>>(data));
             }
             catch (Exception)
             {
@@ -63,7 +63,7 @@ namespace ReactApp1.Server.Services
             try
             {
                 var stockOut = _stockOutRepository.GetById(StockOutDTO.Id.Value);
-                _mapper.Map(stockOut, stockOut);
+                _mapper.Map(StockOutDTO, stockOut);
                 _stockOutRepository.Update(stockOut);
                 return new ApiResponse<StockOutDTO>((int)PublicStatusCode.Done, _mapper.Map<StockOutDTO>(_mapper.Map<StockOutDTO>(_stockOutRepository.GetByIdWithNavigations(stockOut.Id, _ => _.IdStockEntryNavigation.IdProductNavigation))));
             }
@@ -91,9 +91,9 @@ namespace ReactApp1.Server.Services
             try
             {
                 var stockOut = _mapper.Map(StockOutDTO, new StockOut() { InsertionDate = DateTime.Now });
-                var stock = _sQLRepository.GetStockWithIdStockEntry(stockOut.IDStockEntry);
-                if (stock.Result != null ? stock.Result.RemainingStock < stockOut.Quantity : true)
-                    return new ApiResponse<StockOutDTO>((int)PublicStatusCode.NotEnoughQuantity);
+                //var stock = _sQLRepository.GetStockWithIdStockEntry(stockOut.IDStockEntry);
+                //if (stock.Result != null ? stock.Result.RemainingStock < stockOut.Quantity : true)
+                //    return new ApiResponse<StockOutDTO>((int)PublicStatusCode.NotEnoughQuantity);
 
                 var inserted = _stockOutRepository.AddAndGetEntity(stockOut);
                 return new ApiResponse<StockOutDTO>((int)PublicStatusCode.Done, _mapper.Map<StockOutDTO>(_stockOutRepository.GetByIdWithNavigations(inserted.Id, _ => _.IdStockEntryNavigation.IdProductNavigation)));
