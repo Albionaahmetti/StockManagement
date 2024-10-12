@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "D:\\OutsideJob\\StockManagement\\ReactApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\migrations\\20241012170245_desc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\migrations\\20241012170245_desc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\layouts\\mainlayout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\layouts\\mainlayout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\customnavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\customnavbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\vite-env.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\vite-env.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\home.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.client\\src\\vite-env.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A6C7A980-DFCE-44F2-BCCE-EC41F4C5675E}|reactapp1.client\\reactapp1.client.esproj|solutionrelative:reactapp1.client\\src\\vite-env.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\interfaces\\isqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\services\\stockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\services\\stockentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\services\\stockentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -77,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\interfaces\\istockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\interfaces\\istockoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|d:\\outsidejob\\stockmanagement\\reactapp1\\reactapp1.server\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39612CB-21CA-4E1C-BF6C-B9955D32C9DF}|ReactApp1.Server\\ReactApp1.Server.csproj|solutionrelative:reactapp1.server\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -100,7 +112,7 @@
               "RelativeDocumentMoniker": "reactapp1.client\\src\\Home.tsx",
               "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\Home.tsx",
               "RelativeToolTip": "reactapp1.client\\src\\Home.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAwwL8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-10-12T15:13:44.079Z",
               "IsPinned": true,
@@ -112,46 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomNavbar.tsx",
-              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.tsx",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\CustomNavbar.tsx",
-              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.tsx",
-              "RelativeToolTip": "reactapp1.client\\src\\CustomNavbar.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T16:47:07.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "vite-env.d.ts",
-              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\vite-env.d.ts",
-              "RelativeDocumentMoniker": "reactapp1.client\\src\\vite-env.d.ts",
-              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\vite-env.d.ts",
-              "RelativeToolTip": "reactapp1.client\\src\\vite-env.d.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-10-12T16:47:02.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Program.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Program.cs",
-              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Program.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:39:20.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Products.tsx",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\products\\Products.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\products\\Products.tsx",
@@ -164,20 +137,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "App.tsx",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\App.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\App.tsx",
               "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\App.tsx",
               "RelativeToolTip": "reactapp1.client\\src\\App.tsx",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwBMAAAAeAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwCUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-10-12T16:34:14.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "productColumns.tsx",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\products\\productColumns.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\products\\productColumns.tsx",
@@ -190,7 +163,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "StockOutService.cs",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockOutService.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\StockOutService.cs",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockOutService.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Services\\StockOutService.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAYwGUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:00:48.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Program.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Program.cs",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Program.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:39:20.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\.gitignore",
+              "RelativeDocumentMoniker": "reactapp1.client\\.gitignore",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\.gitignore",
+              "RelativeToolTip": "reactapp1.client\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-12T16:54:17.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AddStockEntryDialog.tsx",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\AddStockEntryDialog.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\stockEntries\\AddStockEntryDialog.tsx",
@@ -203,7 +215,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "StockOutController.cs",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockOutController.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\StockOutController.cs",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockOutController.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Controllers\\StockOutController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBYAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T15:00:36.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241012170245_Desc.cs",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Migrations\\20241012170245_Desc.cs",
+              "RelativeDocumentMoniker": "ReactApp1.Server\\Migrations\\20241012170245_Desc.cs",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Migrations\\20241012170245_Desc.cs",
+              "RelativeToolTip": "ReactApp1.Server\\Migrations\\20241012170245_Desc.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA1wAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T17:02:45.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\layouts\\MainLayout.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\layouts\\MainLayout.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\layouts\\MainLayout.tsx",
+              "RelativeToolTip": "reactapp1.client\\layouts\\MainLayout.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-12T16:59:26.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "vite-env.d.ts",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\vite-env.d.ts",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\vite-env.d.ts",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\vite-env.d.ts",
+              "RelativeToolTip": "reactapp1.client\\src\\vite-env.d.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-12T16:47:02.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomNavbar.tsx",
+              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.tsx",
+              "RelativeDocumentMoniker": "reactapp1.client\\src\\CustomNavbar.tsx",
+              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\CustomNavbar.tsx",
+              "RelativeToolTip": "reactapp1.client\\src\\CustomNavbar.tsx",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwCkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-12T16:47:07.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "gridItem.tsx",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\gridItem.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\stockEntries\\gridItem.tsx",
@@ -216,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Entry.tsx",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\types\\Entry.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\types\\Entry.tsx",
@@ -229,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "StockEntry.tsx",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\stockEntries\\StockEntry.tsx",
@@ -242,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "dataformat.tsx",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\reactapp1.client\\src\\helpers\\dataformat.tsx",
               "RelativeDocumentMoniker": "reactapp1.client\\src\\helpers\\dataformat.tsx",
@@ -255,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "ISQLRepository.cs",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Interfaces\\ISQLRepository.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Interfaces\\ISQLRepository.cs",
@@ -268,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "SQLService.cs",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\SQLService.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\SQLService.cs",
@@ -281,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\ProductService.cs",
@@ -294,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "StockEntryService.cs",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockEntryService.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\StockEntryService.cs",
@@ -307,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\GenericRepository.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\GenericRepository.cs",
@@ -320,20 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StockOutService.cs",
-              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockOutService.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Services\\StockOutService.cs",
-              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Services\\StockOutService.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Services\\StockOutService.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAqwF0AAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T15:00:48.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "IStockOutService.cs",
               "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Interfaces\\IStockOutService.cs",
               "RelativeDocumentMoniker": "ReactApp1.Server\\Interfaces\\IStockOutService.cs",
@@ -342,19 +406,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T15:00:42.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "StockOutController.cs",
-              "DocumentMoniker": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockOutController.cs",
-              "RelativeDocumentMoniker": "ReactApp1.Server\\Controllers\\StockOutController.cs",
-              "ToolTip": "D:\\OutsideJob\\StockManagement\\ReactApp1\\ReactApp1.Server\\Controllers\\StockOutController.cs",
-              "RelativeToolTip": "ReactApp1.Server\\Controllers\\StockOutController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T15:00:36.207Z",
               "EditorCaption": ""
             }
           ]
