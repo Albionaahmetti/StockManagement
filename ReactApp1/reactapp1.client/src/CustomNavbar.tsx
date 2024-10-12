@@ -39,8 +39,8 @@ function CustomNavbar() {
                             </NavDropdown.Item>
                             <NavDropdown.Item
                                 as={NavLink}
-                                to="/stockexits"
-                                className={location.pathname === '/stockexits' ? 'active-nav-link' : ''}
+                                to="/stockout"
+                                className={location.pathname === '/stockout' ? 'active-nav-link' : ''}
                             >
                                 Dalje
                             </NavDropdown.Item>
